@@ -1,0 +1,87 @@
+@media (max-width:500px){
+    .project{
+        width: 100%;
+        height: 90vh;
+        margin-top: 10vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        padding: 5px;  
+
+        
+    }
+    .project:nth-child(even){
+        background-color: #fff;
+    }
+    
+    .exeimg{
+        width: 29vmax;
+        height: 20vmax;
+        padding: 10px;
+        box-shadow: -10px -10px 10px 10px rgba(142, 137, 137, 0.669),
+        10px 10px 10px 10px rgb(0, 0, 0, 0.1),
+        inset -10px -10px 10px 10px rgba(142, 137, 137, 0.669),
+        inset 10px 10px 10px 10px rgb(0, 0, 0, 0.1);
+    }
+    .graphicp{
+        width: 20vmax;
+        height: auto;
+        background-color: gray;
+        padding: 10px;
+        box-shadow: -10px -10px 10px 10px rgba(142, 137, 137, 0.669),
+        10px 10px 10px 10px rgb(0, 0, 0, 0.1),
+        inset -10px -10px 10px 10px rgba(142, 137, 137, 0.669),
+        inset 10px 10px 10px 10px rgb(0, 0, 0, 0.1);
+    }
+    .video{
+        width: 100%;
+        height: 30%;
+        box-shadow: -10px -10px 10px 10px rgba(142, 137, 137, 0.669),
+        10px 10px 10px 10px rgb(0, 0, 0, 0.1),
+        inset -10px -10px 10px 10px rgba(142, 137, 137, 0.669),
+        inset 10px 10px 10px 10px rgb(0, 0, 0, 0.1);
+        padding: 10px;
+    }
+    
+    .webp{
+        width: 43vmax;
+        height: 25vmax;
+        box-shadow: -10px -10px 10px 10px rgba(142, 137, 137, 0.669),
+        10px 10px 10px 10px rgb(0, 0, 0, 0.1),
+        inset -10px -10px 10px 10px rgba(142, 137, 137, 0.669),
+        inset 10px 10px 10px 10px rgb(0, 0, 0, 0.1);
+        padding: 10px;
+        background-color: gray;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    
+    }
+    .webimg{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .linkproject{
+        width: 100%;
+        height: fit-content;
+        background-color: #181717a0;
+        backdrop-filter: blur(10px);
+        position: relative;
+        bottom: 15%;
+        font-size: x-small;
+        font-weight: 600;
+        text-align: center;
+        color: #fff;
+        padding: 5px;
+        text-decoration: none;
+    }
+    #Webproject{
+        overflow-y: scroll;
+    }
+}
