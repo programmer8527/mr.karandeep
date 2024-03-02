@@ -1,3 +1,10 @@
+///logo 
+const logo = document.querySelector('.headerlogo');
+logo.style.cursor='pointer'
+logo.addEventListener('click',() => {
+  window.location.href='index.html';
+  
+})
 ///nav bar movment
 const navbtn= document.querySelector(".btn");
 const navheader=document.querySelector(".header");
