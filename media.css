@@ -173,7 +173,7 @@
     background-color: red;
     z-index: 999;
     position: fixed;
-    top: 95vh;
+    top: calc(100%-5vh);
     left: 0 ;
     transform: rotate(0deg);
     padding: 15px;
