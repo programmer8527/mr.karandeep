@@ -37,6 +37,20 @@ const options = {
       }
     });
   });
+
+  ///feedback function
+const feed = document.getElementById('feedback');
+const form = document.querySelector('.feedbackform');
+const close1 = document.querySelector('.closebtn');
+feed.addEventListener('click', () =>{
+  form.style.transform='translateX(0)';
+  
+})
+
+close1.addEventListener('click', () =>{
+  form.style.transform='translateX(100%)';
+  
+})
   
 
 
