@@ -58,6 +58,17 @@ close1.addEventListener('click', () =>{
   form.style.transform='translateX(100%)';
   
 })
-  
+
+// Check if page_view entry is present
+var visitCount = localStorage.getItem("page_view");
+if (visitCount) {
+  visitCount = Number(visitCount) + 1 ;
+} else {
+  visitCount = 1;
+}
+localStorage.setItem("page_view", visitCount);
+
+var counterContainer = document.querySelector(".website-counter");
+counterContainer.innerHTML = visitCount + ' + views';
 
 
