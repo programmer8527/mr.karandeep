@@ -25,23 +25,7 @@
         box-sizing: border-box;
         overflow-x: hidden;
     }
-/*view*/
-.website-counter{
-    color: #fff;
-    position: fixed;
-    left: 5px;
-    bottom: 5px;
-    z-index: 999;
-    width: fit-content;
-    height: fit-content;
-    background-color: #285AEB;
-    padding: 5px;
-    border-radius: 30px;
-    font-size: small;
-    font-weight: bolder;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
-}
 
     .header {
         width: 100%;
